@@ -12,7 +12,7 @@ name_hash.each do |key, value|
 end
     
 end
-haskey
+   haskey
 end
 
 
