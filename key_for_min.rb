@@ -9,3 +9,6 @@ key_for_min_value.each do |key, value|
 end
 end
 
+ hash = {:blake => 500, :ashley => 2, :adam => 1}
+ 
+ key_for_min_value(hash)
