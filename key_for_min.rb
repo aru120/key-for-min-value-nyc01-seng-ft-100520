@@ -12,4 +12,4 @@
 
  hash = {:blake => 500, :ashley => 2, :adam => 1}
  
- puts hash[]
+ puts hash[1]
