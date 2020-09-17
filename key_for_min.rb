@@ -3,10 +3,11 @@
 
 
 def key_for_min_value(name_hash)
-newhash = 
-lowest = nil
-hashkey = nil
+
+
 name_hash.each do |key, value|
+  lowest = value
+  hashkey = key
   if  value < lowest
    lowest = value
    hashkey = key
